@@ -1,3 +1,8 @@
+*{
+    font-family:"Roboto Sans Serif", sans-serif;
+}
+
+
 .links{
     display: flex;
     margin-left:auto;
