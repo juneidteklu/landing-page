@@ -9,6 +9,22 @@
     gap: 10px;
 }
 
-.hero-section, .top-buttons{
+.hero-section, .top-buttons,.section{
     display: flex;
 }
+
+img{
+    width: 300px;
+    height:auto;
+}
+
+.section-container{
+    flex-basis: 1500px;
+    
+}
+
+.section{
+    justify-content: center;
+    \
+}
+
