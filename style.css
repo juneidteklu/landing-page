@@ -1,6 +1,9 @@
 *{
     font-family:"Roboto Sans Serif", sans-serif;
 }
+body{
+    margin: 0px;
+}
 
 
 .links{
@@ -9,22 +12,43 @@
     gap: 10px;
 }
 
+
 .hero-section, .top-buttons,.section{
     display: flex;
+    
+}
+
+.hero-section,.top-buttons{
+    margin-bottom: 60px;
 }
 
 img{
     width: 300px;
     height:auto;
+    flex: 1;
 }
+
+.hero-section{
+    gap: 60px;
+}
+.text h1, .text p{
+    margin: 0px;
+}
+
 
 .section-container{
     flex-basis: 1500px;
+    padding: 10px;
     
 }
 
 .section{
     justify-content: center;
-    \
+}
+
+.header,.footer{
+    background-color: #1f2937;
+    color: #f9faf8;
+
 }
 
