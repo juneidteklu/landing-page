@@ -80,6 +80,9 @@ button{
     color: #f9faf8;
     border-radius: 7px;
     padding: 3px 20px;
+    width: 89.25px;
+    height: 25px;
+    border: none;
     
 }
 
@@ -94,6 +97,7 @@ button{
     display: flex;
     gap: 40px;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .box-container{
@@ -119,7 +123,8 @@ text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: 309.81px;
+    background-color: #e5e7eb;
 }
 
 .testimonial{
@@ -133,3 +138,39 @@ text-align: center;
     
 }
 
+.call-to-action{
+    width:800px;
+    height: 100px;
+    display:flex;
+    flex-direction: column;
+    background-color: #3882f6;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 10px 70px;;
+
+    
+}
+
+.call-to-action div{
+    display: flex;
+    justify-content: space-between;
+}
+
+h3{
+    margin: 0px;
+}
+
+footer{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+
+}
+
+.footer-button{
+    border: solid white 2px;
+    padding: 0px;
+    
+}
