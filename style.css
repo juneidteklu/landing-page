@@ -115,3 +115,21 @@ button{
 text-align: center;
 }
 
+.body-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+}
+
+.thor{
+    align-self: flex-end;
+    
+}
+
