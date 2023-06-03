@@ -66,6 +66,17 @@ img{
 
 }
 
+.text h1{
+    font-size: 48px;
+    font-weight:800;
+    color: #f9faf8;
+}
+
+.text p{
+    font-size: 18px;
+    color:#e5e7eb;
+}
+
 .hero-section{
     height: 300px;
     justify-content: space-between;
@@ -91,6 +102,15 @@ button{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height:
+    flex-wrap: wrap;
+    
+}
+
+.body-one h2{
+    font-size: 36px;
+    font-weight: 800;
+    color:#1f2937;
 }
 
 .info{
@@ -98,7 +118,9 @@ button{
     gap: 40px;
     flex-wrap: wrap;
     align-items: center;
+    margin: 20px;
 }
+
 
 .box-container{
     display: flex;
@@ -123,7 +145,7 @@ text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 309.81px;
+    height: 400px;
     background-color: #e5e7eb;
 }
 
@@ -135,8 +157,17 @@ text-align: center;
 
 .thor{
     align-self: flex-end;
+    font-weight: 800;
     
 }
+.quote{
+    font-size: 36px;
+    color: #28231d;
+    font-style: italic;
+    
+}
+
+
 
 .call-to-action{
     width:800px;
@@ -146,7 +177,8 @@ text-align: center;
     background-color: #3882f6;
     justify-content: center;
     border-radius: 5px;
-    padding: 10px 70px;;
+    padding: 10px 70px;
+    color: #f9faf8;
 
     
 }
@@ -154,6 +186,8 @@ text-align: center;
 .call-to-action div{
     display: flex;
     justify-content: space-between;
+    color: #e5e7eb;
+    
 }
 
 h3{
@@ -170,7 +204,7 @@ footer{
 }
 
 .footer-button{
-    border: solid white 2px;
+    border: solid #e5e7eb 2px;
     padding: 0px;
-    
+    color:#f9faf8;
 }
